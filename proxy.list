@@ -1,25 +1,22 @@
-# 代理补充列表
+# 订阅与个人管理
+domain-suffix: 085208.xyz
 
-# 域名后缀匹配
-DOMAIN-SUFFIX,085208.xyz
-# 域名关键字匹配
-DOMAIN-KEYWORD,1e100
-# 国外DNS
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,doh.dns.sb
-DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,hk-hkg.doh.sb
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,185.222.222.222/32,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,208.67.220.220/32,no-resolve
+# 海外公共 DNS 域名
+domain-suffix: dns.google
+domain-suffix: cloudflare-dns.com
+domain-suffix: 1dot1dot1dot1.cloudflare-dns.com
+domain-suffix: dot.sb
+domain-suffix: doh.dns.sb
+domain-suffix: hk-hkg.doh.dns.sb
+domain-suffix: dns.umbrella.com
+domain-suffix: doh.opendns.com
+domain-suffix: dns.quad9.net
+
+# 海外公共 DNS IP 网段
+ip-cidr: 8.8.8.8/32
+ip-cidr: 8.8.4.4/32
+ip-cidr: 1.1.1.1/32
+ip-cidr: 1.0.0.1/32
+ip-cidr: 185.222.222.222/32
+ip-cidr: 208.67.222.222/32
+ip-cidr: 208.67.220.220/32
